@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000">
+  <defs><linearGradient id="c2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FAF1EA"/><stop offset="1" stop-color="#EBD8CD"/></linearGradient></defs>
+  <rect width="800" height="1000" fill="url(#c2)"/>
+  <rect x="0" y="620" width="800" height="380" fill="#F4E7DE"/>
+  <ellipse cx="400" cy="640" rx="220" ry="24" fill="#DAC3B4" opacity=".4"/>
+
+  <!-- hoops -->
+  <g transform="translate(160 220)">
+    <circle cx="90" cy="120" r="88" fill="none" stroke="#D6B27C" stroke-width="16"/>
+    <circle cx="270" cy="150" r="96" fill="none" stroke="#D6B27C" stroke-width="16"/>
+    <circle cx="90" cy="26" r="20" fill="#F4EAE2" stroke="#E3D3C6" stroke-width="3"/>
+    <circle cx="270" cy="48" r="21" fill="#F4EAE2" stroke="#E3D3C6" stroke-width="3"/>
+  </g>
+
+  <!-- hair clips -->
+  <g transform="translate(180 520)">
+    <g transform="rotate(-18 0 0)">
+      <rect x="0" y="0" width="150" height="46" rx="23" fill="#F0DCD1"/>
+      <circle cx="150" cy="23" r="23" fill="#E1C2B2"/>
+    </g>
+    <g transform="translate(30 70) rotate(10)">
+      <rect x="0" y="0" width="150" height="46" rx="23" fill="#E9B7A8"/>
+      <circle cx="150" cy="23" r="23" fill="#DBA697"/>
+    </g>
+  </g>
+
+  <!-- scrunchies -->
+  <g transform="translate(420 500)">
+    <circle cx="80" cy="80" r="80" fill="none" stroke="#E7C9A8" stroke-width="34"/>
+    <circle cx="250" cy="180" r="72" fill="none" stroke="#F0DCD1" stroke-width="32"/>
+  </g>
+
+  <!-- pearls -->
+  <circle cx="620" cy="740" r="14" fill="#F6EEE7" stroke="#E1D2C6" stroke-width="2"/>
+  <circle cx="660" cy="760" r="14" fill="#F6EEE7" stroke="#E1D2C6" stroke-width="2"/>
+  <circle cx="700" cy="740" r="14" fill="#F6EEE7" stroke="#E1D2C6" stroke-width="2"/>
+</svg>

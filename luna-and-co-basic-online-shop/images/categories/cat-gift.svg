@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000">
+  <defs><linearGradient id="c4" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FBF3EE"/><stop offset="1" stop-color="#EBD6CB"/></linearGradient></defs>
+  <rect width="800" height="1000" fill="url(#c4)"/>
+  <rect x="0" y="700" width="800" height="300" fill="#F4E8DF"/>
+  <ellipse cx="400" cy="720" rx="250" ry="26" fill="#D9C2B3" opacity=".45"/>
+
+  <!-- gift box -->
+  <g transform="translate(200 300)">
+    <rect x="0" y="60" width="400" height="220" rx="16" fill="#F0DCD1"/>
+    <rect x="0" y="60" width="400" height="46" rx="16" fill="#E2C3B3"/>
+    <path d="M200 60 v220" stroke="#D9B7A5" stroke-width="5"/>
+    <path d="M100 60 q100 -90 200 0" fill="none" stroke="#C98D7C" stroke-width="11" stroke-linecap="round"/>
+    <path d="M300 60 q-100 -90 -200 0" fill="none" stroke="#E9B7A8" stroke-width="11" stroke-linecap="round"/>
+    <circle cx="200" cy="46" r="16" fill="#C98D7C"/>
+  </g>
+
+  <!-- tag -->
+  <g transform="translate(540 240) rotate(16)">
+    <rect x="0" y="0" width="120" height="80" rx="8" fill="#FBF4EF" stroke="#E3D3C6" stroke-width="3"/>
+    <path d="M18 28 h84 M18 50 h56" stroke="#C9A594" stroke-width="6" stroke-linecap="round"/>
+    <path d="M-14 20 L-2 8" stroke="#C9A594" stroke-width="3"/>
+  </g>
+
+  <!-- sparkles -->
+  <g fill="#E9B7A8">
+    <path d="M120 220 l8 22 22 8 -22 8 -8 22 -8 -22 -22 -8 22 -8z"/>
+    <path d="M660 620 l6 17 17 6 -17 6 -6 17 -6 -17 -17 -6 17 -6z"/>
+  </g>
+</svg>
