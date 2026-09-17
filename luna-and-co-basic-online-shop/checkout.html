@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Checkout — Luna &amp; Co.</title>
+<meta name="description" content="Complete your Luna &amp; Co. order. Manual payment via GCash, QR Ph, or bank transfer.">
+<link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="Shop">
+
+<div id="site-header"></div>
+
+<main>
+
+  <section class="page-hero">
+    <div class="wrap">
+      <div class="crumbs"><a href="index.html">Home</a> &nbsp;/&nbsp; <a href="cart.html">Cart</a> &nbsp;/&nbsp; Checkout</div>
+      <h1>Checkout</h1>
+      <p class="lede">No account needed. Fill in your details, choose how you would like to pay, and we will confirm your order personally.</p>
+    </div>
+  </section>
+
+  <section style="padding-top:2.4rem">
+    <div class="wrap">
+      <div class="co-grid">
+
+        <div id="co-main">
+          <form id="co-form" novalidate>
+
+            <div class="panel">
+              <h3>Customer Information</h3>
+              <p class="sub">We use these details to confirm your order and send payment instructions.</p>
+              <div class="f-field">
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" autocomplete="name" placeholder="e.g. Maria Santos">
+                <span class="f-err">Please enter your full name.</span>
+              </div>
+              <div class="f-row">
+                <div class="f-field">
+                  <label for="email">Email Address</label>
+                  <input type="email" id="email" autocomplete="email" placeholder="you@email.com">
+                  <span class="f-err">Please enter a valid email address.</span>
+                </div>
+                <div class="f-field">
+                  <label for="mobile">Mobile Number</label>
+                  <input type="tel" id="mobile" autocomplete="tel" placeholder="0917 000 0000">
+                  <span class="f-err">Please enter a valid mobile number.</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="panel">
+              <h3>Delivery Information</h3>
+              <p class="sub">Shipping is arranged with you after we confirm your order.</p>
+              <div class="f-field">
+                <label for="address">Complete Address</label>
+                <input type="text" id="address" autocomplete="street-address" placeholder="House/unit no., street, barangay">
+                <span class="f-err">Please enter your complete address.</span>
+              </div>
+              <div class="f-row">
+                <div class="f-field">
+                  <label for="city">City / Municipality</label>
+                  <input type="text" id="city" placeholder="e.g. Quezon City">
+                  <span class="f-err">Required.</span>
+                </div>
+                <div class="f-field">
+                  <label for="province">Province</label>
+                  <input type="text" id="province" placeholder="e.g. Metro Manila">
+                  <span class="f-err">Required.</span>
+                </div>
+              </div>
+              <div class="f-row">
+                <div class="f-field">
+                  <label for="postal">Postal Code</label>
+                  <input type="text" id="postal" inputmode="numeric" maxlength="4" placeholder="1100">
+                  <span class="f-err">Enter a 4-digit postal code.</span>
+                </div>
+                <div class="f-field">
+                  <label for="notes">Delivery Notes <span style="text-transform:none;letter-spacing:0;font-weight:400">(optional)</span></label>
+                  <input type="text" id="notes" placeholder="Landmark, gate colour, preferred time">
+                </div>
+              </div>
+            </div>
+
+            <div class="panel">
+              <h3>Payment Method</h3>
+              <p class="sub">Payment is made manually. We will send you the exact details after we confirm your order — nothing is charged on this site.</p>
+              <div id="pay-options"></div>
+              <p class="note" style="text-align:left;margin-top:1.2rem">Payment details shown here are demonstration values only. A real store would display the business&rsquo;s own GCash, QR Ph, and bank account information.</p>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block" style="padding:1.05rem">Place Order</button>
+            <p class="note">By placing this order you agree to be contacted by Luna &amp; Co. to confirm your items and payment. This is a demo storefront — no real order is created.</p>
+          </form>
+        </div>
+
+        <div id="co-side">
+          <div class="summary">
+            <h3>Order Summary</h3>
+            <div id="co-items"></div>
+            <div id="co-totals"></div>
+            <div class="trust-mini" style="margin-top:1rem">
+              <strong>Manual payment only</strong>
+              We verify every payment ourselves. There is no automated payment gateway on this store.
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<div id="site-footer"></div>
+
+<script src="js/store.js"></script>
+<script src="js/checkout.js"></script>
+</body>
+</html>
